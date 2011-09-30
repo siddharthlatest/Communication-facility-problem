@@ -1,0 +1,9 @@
+Messages arrive at a communication facility in accordance with a Poisson process at the rate of 2/hr. The facility consists of three channels, and an arriving message will either go to a free channel if any of them is free, else it gets lost. The amount of time that a message ties up a channel is a random variable that depends on the weather condition at the time the message arrives. If the message arrives when the weather is "good" then it's processing time is a random variable having distribution function
+
+F(x) = x, 0 < x < 1,
+
+whereas if the weather is "bad" when the message arrives, then it's processing time is a random variable having distribution function
+
+F(x) = x^3, 0 < x < 1.
+
+Initially, the weather is good, and it alternates between good and bad periods with good periods having fixed length of 2 hours and bad periods having fixed length of 1 hour. Suppose we are interested in the number of lost messages by time T=100.
