@@ -1,0 +1,4 @@
+Read "Problem statement" file for the exact problem statement
+
+The problem statement is already simplified by providing a probabilistic model in the form of Poisson process for the system. In order to find out average "the lost messages" in the first T hours, we simulate this model many times, and find out the mean over all the simulations.
+
